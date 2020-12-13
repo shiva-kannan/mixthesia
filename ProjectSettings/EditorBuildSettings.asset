@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: f49e0b268a11f2c468f07e611df945af
+  - enabled: 1
+    path: Assets/Scenes/Prototype_AllIsFound.unity
+    guid: 9c9d945bc5a4c564fa182681831715af
+  - enabled: 1
+    path: Assets/Scenes/Prototype_Reverb.unity
+    guid: 15bfa525de3972d40b1548ceeacddfac
+  - enabled: 1
+    path: Assets/Scenes/Prototype_AudioCube.unity
+    guid: f536c948c3187fc458cbe8f4d924a00a
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e936a2f997229964e88fc0cf10c859db,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c40fdd57a29885a41a49dad218fb8f2c,
+      type: 2}
