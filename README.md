@@ -22,21 +22,40 @@ fall under. And hence, the scenes present in the `Assets/Scenes` directory can b
 
 
 ### Scripts Setup
+> ##### Track Field : Volume and Panning
+.. WIP
+
 
 > ##### Reverb
-
+.. WIP
 
 > ##### EQ
+.. WIP
 
 
-
-> ##### FMOD Setup
-
+### FMOD Setup
+.. WIP
 
 ### Project Documentation Material
 
+1. [Volume and Panning Prototype](https://www.etc.cmu.edu/projects/mixthesia/index.php/prototypes/volume-panning/)
+2. [Reverb Prototype](https://www.etc.cmu.edu/projects/mixthesia/index.php/prototypes/reverb/)
+3. [Automation and Timeline](https://www.etc.cmu.edu/projects/mixthesia/index.php/prototypes/automation-timeline/)
+4. [EQ and Audio Cube](https://www.etc.cmu.edu/projects/mixthesia/index.php/prototypes/eq-audio-cube/)
 
 
 ### Tool Usage and Documentation
 
-### Authors
+.. WIP
+
+### Project Owners
+
+[Sam Hu](https://www.samjhhu.com/)
+
+[Shiva Kannan](https://shivakannan.me/)
+
+[Pavan Paravasthu](https://www.pavanparavasthu.com/)
+
+[Brandon Badger](https://bmbadger97.wixsite.com/portfolio)
+
+[Isabel Yi]()
