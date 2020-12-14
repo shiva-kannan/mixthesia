@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <a href="https://www.etc.cmu.edu/projects/mixthesia/">Mixthesia</a>
+  <a href="https://www.etc.cmu.edu/projects/mixthesia/" style="font-size: 200px; text-decoration: none"><b>Mixthesia</b></a>
   <br><br>
   <img src="Media/mixthesia-logo.PNG" width="350">
 </p>
