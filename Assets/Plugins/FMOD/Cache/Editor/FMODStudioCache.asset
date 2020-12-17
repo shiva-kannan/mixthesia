@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9169731856236970073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AllIsFound/Backing Vocals
+  m_EditorClassIdentifier: 
+  Path: event:/AllIsFound/Backing Vocals
+  guid: 8f01b22cf8ddfc488bab627cffee89b1
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183954
 --- !u!114 &-9071461041669641164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +158,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56888
+--- !u!114 &-8532623470632897416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AllIsFound/Guitar Solo
+  m_EditorClassIdentifier: 
+  Path: event:/AllIsFound/Guitar Solo
+  guid: 62e0e3866f027941b6ded35489e49dec
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183954
 --- !u!114 &-8415961353456068504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +204,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56888
+--- !u!114 &-8400847744532158175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SoundEffects.bank
+  m_EditorClassIdentifier: 
+  Path: ../VIVALaVidaFMODProject/Build/Desktop/SoundEffects.bank
+  SubDir: 
+  lastModified: 637431943909449459
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8352216895422002608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +245,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 4600
+--- !u!114 &-8320471997139051256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Invasion/tutorial_battle_bass
+  m_EditorClassIdentifier: 
+  Path: event:/Invasion/tutorial_battle_bass
+  guid: fca786eabe5a004f8547221ec51c9997
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 79354
 --- !u!114 &-8252937903675770334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,6 +503,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7497984085147708318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AllIsFound/Lead Vocal
+  m_EditorClassIdentifier: 
+  Path: event:/AllIsFound/Lead Vocal
+  guid: 52d27e8066cb244b811c12339c55d2c3
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183954
 --- !u!114 &-7481620975240254510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +602,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-7211050993623419982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/NylaVocals
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/NylaVocals
+  guid: 51f1d847a5513c4b87060cc49ded9e80
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
 --- !u!114 &-7089031066859759074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,6 +643,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7087928023829083395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/Claps
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/Claps
+  guid: 1ae3fced38550549a734b2272c923af2
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
 --- !u!114 &-7054012191670418712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -897,6 +1053,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-5965316157517251709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/Bass
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/Bass
+  guid: 2594dead814fb6418dd326182afa7b6a
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
 --- !u!114 &-5946707197684762709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -959,6 +1138,29 @@ MonoBehaviour:
   guid: 9ed99fbb8fea1247a800c700a9cc19a9
   Banks:
   - {fileID: -3234301272914382785}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
+--- !u!114 &-5463409318378571924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/AcousticGuitar
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/AcousticGuitar
+  guid: 01f7d4ecb611ae43bfcb0353f9898fd5
+  Banks:
+  - {fileID: -635379285393594832}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1042,6 +1244,75 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5067661568300661311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Invasion/tutorial_battle_synth
+  m_EditorClassIdentifier: 
+  Path: event:/Invasion/tutorial_battle_synth
+  guid: 4ada98626d3b8d4388bd15ebb63036f4
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 87669
+--- !u!114 &-5055939425887772413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/VOXFx
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/VOXFx
+  guid: f97f50011be1214493ab9ac90f1abe37
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
+--- !u!114 &-4600945698929598404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/TrumpetLead
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/TrumpetLead
+  guid: d34b16394be6564f87e50efec2126742
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
 --- !u!114 &-4431224469759874124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1170,6 +1441,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56888
+--- !u!114 &-4079853968576218455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Invasion/tutorial_battle_wind
+  m_EditorClassIdentifier: 
+  Path: event:/Invasion/tutorial_battle_wind
+  guid: 145f1867f6efc746b6f14c5f9f7eab2e
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 112932
 --- !u!114 &-3631874867243482083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1274,6 +1568,29 @@ MonoBehaviour:
   guid: 4b34f5d2e057e94aaeb7f98b0e0d9573
   Banks:
   - {fileID: -3234301272914382785}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183954
+--- !u!114 &-3368660691345855534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AllIsFound/Piano
+  m_EditorClassIdentifier: 
+  Path: event:/AllIsFound/Piano
+  guid: 154289db81b6bb45ac3d11cdbc4deef8
+  Banks:
+  - {fileID: -635379285393594832}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1452,6 +1769,52 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-2440565107858349257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/Piano_ML
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/Piano_ML
+  guid: 0b08b0c5f43d4e45903120d48abb9466
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
+--- !u!114 &-2366882722284787503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AllIsFound/Celeste
+  m_EditorClassIdentifier: 
+  Path: event:/AllIsFound/Celeste
+  guid: b48bb0da7b25594fb3fbee1e116ed586
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183954
 --- !u!114 &-2240199392928663097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1638,6 +2001,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1522363144134929330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TwistedSignals/SynthBass
+  m_EditorClassIdentifier: 
+  Path: event:/TwistedSignals/SynthBass
+  guid: 283688b5d6b9cd4798394def0be0e327
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68500
 --- !u!114 &-1500325183036341543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1761,6 +2147,47 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-1002332939080724605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/LeadStrings
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/LeadStrings
+  guid: ca34f99939033f408f31812a4cfff71d
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
+--- !u!114 &-635379285393594832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../VIVALaVidaFMODProject/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637431943909349445
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-408045745369736167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,6 +2260,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-131323125256784089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/TransitionPads
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/TransitionPads
+  guid: e6f5317ddfe94547bc1cdcafca7e9acb
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1846,52 +2296,52 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 3100060878851391320}
-  - {fileID: -3234301272914382785}
-  - {fileID: -6764106481518379370}
+  - {fileID: 3878969936103603683}
+  - {fileID: -635379285393594832}
+  - {fileID: -8400847744532158175}
   EditorEvents:
-  - {fileID: -4113022167028083918}
-  - {fileID: 2472164619713311020}
-  - {fileID: 6187588782115292377}
-  - {fileID: 2042356348766055566}
-  - {fileID: 8790064943790498572}
-  - {fileID: 543560884872719076}
-  - {fileID: -3122281849645513373}
-  - {fileID: 7061267259746938420}
-  - {fileID: -6170069432130733091}
-  - {fileID: -4430326195349165525}
-  - {fileID: 9070604907331009674}
-  - {fileID: -7529416526699849183}
-  - {fileID: -3396838813011776079}
-  - {fileID: -3529547459216303336}
-  - {fileID: 4999292784514009617}
-  - {fileID: -1282392705512638166}
-  - {fileID: 7334093724333680290}
-  - {fileID: -5733768456485027478}
-  - {fileID: 2509356986125572948}
-  - {fileID: -2200835306831476273}
-  - {fileID: -8252937903675770334}
-  - {fileID: -6185853009428199536}
-  - {fileID: -5624358241496869680}
-  - {fileID: 6783387873162410391}
-  - {fileID: -7054012191670418712}
-  - {fileID: 9047500463963051823}
-  - {fileID: 4435862821615132519}
-  - {fileID: -1633157491328617205}
-  - {fileID: -2240199392928663097}
-  - {fileID: 5859538426016972275}
-  - {fileID: 7256203178891765776}
-  - {fileID: -7627246912460676169}
-  - {fileID: 67949642990827441}
-  - {fileID: 6282349442538296673}
-  - {fileID: 5382891606007925253}
-  - {fileID: 7752122722773223258}
-  - {fileID: 1264463384084096261}
+  - {fileID: -5463409318378571924}
+  - {fileID: -2440565107858349257}
+  - {fileID: 3920940168653284907}
+  - {fileID: 8922747702532756884}
+  - {fileID: -4079853968576218455}
+  - {fileID: -3368660691345855534}
+  - {fileID: 1894596258611018754}
+  - {fileID: -7087928023829083395}
+  - {fileID: -5965316157517251709}
+  - {fileID: -1522363144134929330}
+  - {fileID: 7139296721121447132}
+  - {fileID: -5067661568300661311}
+  - {fileID: 8084847623903501840}
+  - {fileID: -7211050993623419982}
+  - {fileID: -7497984085147708318}
+  - {fileID: 7188838569745535038}
+  - {fileID: -8532623470632897416}
+  - {fileID: 3343887691149344408}
+  - {fileID: 4905342817881745351}
+  - {fileID: 6472573255081828992}
+  - {fileID: 5394419101037574395}
+  - {fileID: -9169731856236970073}
+  - {fileID: 240045839754347177}
+  - {fileID: 8614316715120104338}
+  - {fileID: 48484211515020155}
+  - {fileID: -2366882722284787503}
+  - {fileID: 2696413665905787954}
+  - {fileID: 6439937646811449392}
+  - {fileID: -1002332939080724605}
+  - {fileID: 4456888971322484619}
+  - {fileID: -4600945698929598404}
+  - {fileID: -131323125256784089}
+  - {fileID: -5055939425887772413}
+  - {fileID: 4309502916981496288}
+  - {fileID: 458987103585504857}
+  - {fileID: -8320471997139051256}
+  - {fileID: 4315896707967100233}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -3234301272914382785}
+  - {fileID: -635379285393594832}
   StringsBanks:
-  - {fileID: 3100060878851391320}
+  - {fileID: 3878969936103603683}
   stringsBankWriteTime: 637431943909399309
   cacheVersion: 3
 --- !u!114 &25902656649210142
@@ -1935,6 +2385,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &48484211515020155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/MarimbaGuitar
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/MarimbaGuitar
+  guid: a8ec3371c5dbe040a5ba959d3c0a34c0
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
 --- !u!114 &67949642990827441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1958,6 +2431,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 66666
+--- !u!114 &240045839754347177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/Piano
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/Piano
+  guid: 9ed99fbb8fea1247a800c700a9cc19a9
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
+--- !u!114 &458987103585504857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TwistedSignals/ElectricPiano
+  m_EditorClassIdentifier: 
+  Path: event:/TwistedSignals/ElectricPiano
+  guid: fbd485101a97e2478eb8b31815ec1d55
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68500
 --- !u!114 &465094918364973111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2273,6 +2792,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1894596258611018754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TwistedSignals/KickDrum
+  m_EditorClassIdentifier: 
+  Path: event:/TwistedSignals/KickDrum
+  guid: 174128fa4226f148a9a5fac75c959acb
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68500
 --- !u!114 &2042356348766055566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2424,6 +2966,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &2696413665905787954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TwistedSignals/SnareDrum
+  m_EditorClassIdentifier: 
+  Path: event:/TwistedSignals/SnareDrum
+  guid: c4a8550a0ed31f4ca060753567ed343d
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68500
 --- !u!114 &2743209624617818503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2595,6 +3160,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 66873
+--- !u!114 &3343887691149344408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/Bass_ML
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/Bass_ML
+  guid: 6380a6428be5a44b854ddc7ac255bba1
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
 --- !u!114 &3547781397951501659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2713,6 +3301,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3878969936103603683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../VIVALaVidaFMODProject/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637431943909399309
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2410
+  Exists: 1
 --- !u!114 &3888412049521561205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2731,6 +3339,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3920940168653284907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/Kick
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/Kick
+  guid: 0fbc5c65a1c99647ba72a0540fce7331
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
 --- !u!114 &3974401294411029603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2825,6 +3456,52 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &4309502916981496288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AllIsFound/Guitars
+  m_EditorClassIdentifier: 
+  Path: event:/AllIsFound/Guitars
+  guid: fb9255540461d54a8725c0af9a82a116
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183954
+--- !u!114 &4315896707967100233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeadphonesIntro
+  m_EditorClassIdentifier: 
+  Path: event:/HeadphonesIntro
+  guid: b71e469a7b8fab4bab4b24dd05affdcc
+  Banks:
+  - {fileID: -8400847744532158175}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4600
 --- !u!114 &4391057830578755068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2866,6 +3543,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 68500
+--- !u!114 &4456888971322484619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Invasion/tutorial_battle_melodic
+  m_EditorClassIdentifier: 
+  Path: event:/Invasion/tutorial_battle_melodic
+  guid: cd9cfec7fa076a4cb8ea80e7055f9bcb
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 79354
 --- !u!114 &4608941596756501129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2902,6 +3602,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &4905342817881745351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TwistedSignals/HiHats
+  m_EditorClassIdentifier: 
+  Path: event:/TwistedSignals/HiHats
+  guid: 77f485b4de3b754da42e4912cfe04fd9
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68500
 --- !u!114 &4999292784514009617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3038,6 +3761,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 68500
+--- !u!114 &5394419101037574395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/BaseStrings
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/BaseStrings
+  guid: 7ed70bc983184c49b6ea796cf2327672
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
 --- !u!114 &5444656653059851698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3274,6 +4020,52 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6439937646811449392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/DrumsBounce
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/DrumsBounce
+  guid: c73ce1c61a695747a16d08d822962781
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
+--- !u!114 &6472573255081828992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MajorLaser/FuseVocals
+  m_EditorClassIdentifier: 
+  Path: event:/MajorLaser/FuseVocals
+  guid: 79ac817b8e4f5549942be87376302e88
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66666
 --- !u!114 &6778972645765696791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3402,6 +4194,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 66666
+--- !u!114 &7139296721121447132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/Ori_Piano
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/Ori_Piano
+  guid: 3124fd3319f48345866debc6e8e88314
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66873
 --- !u!114 &7140209792096973506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3425,6 +4240,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 66666
+--- !u!114 &7188838569745535038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VivaLaVida/Pads
+  m_EditorClassIdentifier: 
+  Path: event:/VivaLaVida/Pads
+  guid: 5ad65c9479aeef4983d57cd67b0a7361
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56888
 --- !u!114 &7214509574478393751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3589,6 +4427,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &8084847623903501840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AllIsFound/Bass
+  m_EditorClassIdentifier: 
+  Path: event:/AllIsFound/Bass
+  guid: 4b34f5d2e057e94aaeb7f98b0e0d9573
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183954
 --- !u!114 &8121806547920187777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3725,6 +4586,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &8614316715120104338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TwistedSignals/CrystalRain
+  m_EditorClassIdentifier: 
+  Path: event:/TwistedSignals/CrystalRain
+  guid: a8793472cd5b25469207d905f1633509
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68500
 --- !u!114 &8621374102760337690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3807,6 +4691,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8922747702532756884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TwistedSignals/SynthLead
+  m_EditorClassIdentifier: 
+  Path: event:/TwistedSignals/SynthLead
+  guid: 12316dc1ed648548be8b7703c35989eb
+  Banks:
+  - {fileID: -635379285393594832}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68500
 --- !u!114 &8966205956107514784
 MonoBehaviour:
   m_ObjectHideFlags: 0
