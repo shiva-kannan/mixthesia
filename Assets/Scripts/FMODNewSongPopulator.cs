@@ -51,6 +51,12 @@ public class FMODNewSongPopulator : MonoBehaviour
             }
 
             //Create new tracks:
+            if (i == 2)
+            { //if it's in reverb:
+                continue;
+            }
+
+
             for (int j = 0; j < songTackReferences.Count; j++)
             {
                 string trackEvent = songTackReferences[i];
@@ -76,10 +82,17 @@ public class FMODNewSongPopulator : MonoBehaviour
 
                 trackOrbRef.tField = allTracksObj.transform.parent.GetComponent<TrackField>();
                 trackOrbRef.aCube = allTracksObj.transform.parent.GetComponent<AudioCube>();
+                trackOrbRef.
 
-                if (i == 3)
+                if (i == 3) //if it's in EQ
                 {
-                    trackOrbRef.interactionPlane_posReference = null;
+                    trackOrbRef.interactionPlane_posReference = GameObject.FindGameObjectWithTag("AudioCubePlane").transform;
+                    trackOrbRef.isByPassPosition = true;
+                    trackOrbRef.isInAudioCube = true;
+                }else if (i == 1) //if it's in TrackFieldAutomation
+                {
+                    trackOrbRef.isByPassPosition = false;
+                    trackOrbRef.isInAudioCube = false;
                 }
             }
 

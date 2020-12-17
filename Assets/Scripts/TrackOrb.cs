@@ -30,17 +30,17 @@ public class TrackOrb : Clickable
     [SerializeField] private Vector2 freqRectHeightRange;
 
     [Header("----------Behavior Related----------")]
-    [SerializeField] bool isSelectLocked;
-    [SerializeField] bool isBornSelected;
-    [SerializeField] bool isAlwaysSelected;
-    [SerializeField] bool isByPassPosition;
+    [SerializeField] public bool isSelectLocked;
+    [SerializeField] public bool isBornSelected;
+    [SerializeField] public bool isAlwaysSelected;
+    [SerializeField] public bool isByPassPosition;
     public bool isInAudioCube;
     public bool isSimpleEQ;
     private bool isEQOn;
 
     [Header("")]
     [SerializeField] GameObject orbCopy;
-    [SerializeField] General_ColorPool colorPool;
+    [SerializeField] public General_ColorPool colorPool;
     [SerializeField] Vector2 volToColorRange;
     [SerializeField] float volToSizeMulti;
 
