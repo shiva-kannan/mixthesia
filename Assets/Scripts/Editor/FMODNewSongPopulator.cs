@@ -1,12 +1,29 @@
-﻿using System.Collections;
+﻿﻿using System;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 
-public class FMODNewSongPopulator : MonoBehaviour
+public class FMODNewSongPopulator: EditorWindow
 {
-    [SerializeField] GameObject trackOrbPrefab;
+    public GameObject trackOrbPrefab;
+    
+    
+    [MenuItem("Mixthesia/New Song Setup")]
+    public static void ShowWindow()
+    {
+        GetWindow<FMODNewSongPopulator>(false, "New Song Setup", true);
+    }
+
+    private void OnGUI()
+    {
+        GUILayout.Space(10f);
+        GUILayout.Label("New Song Setup Options");
+        GUILayout.Space(10f);
+        trackOrbPrefab = EditorGUILayout.ObjectField("Song Prefab", trackOrbPrefab, typeof(GameObject), false) as GameObject;
+        
+    }
 
     public void Populate(List<string> songTackReferences, string reverbTrackReference, int songBPM, int songBeatPerMeausure, int totalNumberofMeasures)
     {
@@ -51,12 +68,6 @@ public class FMODNewSongPopulator : MonoBehaviour
             }
 
             //Create new tracks:
-            if (i == 2)
-            { //if it's in reverb:
-                continue;
-            }
-
-
             for (int j = 0; j < songTackReferences.Count; j++)
             {
                 string trackEvent = songTackReferences[i];
@@ -80,20 +91,8 @@ public class FMODNewSongPopulator : MonoBehaviour
                 //Deal with TrackOrb.cs related stuff:
                 TrackOrb trackOrbRef = newTrackObj.GetComponent<TrackOrb>();
 
-                trackOrbRef.tField = allTracksObj.transform.parent.GetComponent<TrackField>();
-                trackOrbRef.aCube = allTracksObj.transform.parent.GetComponent<AudioCube>();
-                trackOrbRef.
-
-                if (i == 3) //if it's in EQ
-                {
-                    trackOrbRef.interactionPlane_posReference = GameObject.FindGameObjectWithTag("AudioCubePlane").transform;
-                    trackOrbRef.isByPassPosition = true;
-                    trackOrbRef.isInAudioCube = true;
-                }else if (i == 1) //if it's in TrackFieldAutomation
-                {
-                    trackOrbRef.isByPassPosition = false;
-                    trackOrbRef.isInAudioCube = false;
-                }
+                trackOrbRef.tField = null;
+                trackOrbRef.aCube = null;
             }
 
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());

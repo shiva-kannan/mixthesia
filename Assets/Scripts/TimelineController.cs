@@ -1,4 +1,4 @@
-﻿//--------------------------------------------------------------------
+﻿﻿//--------------------------------------------------------------------
 //
 // This is a Unity behaviour script that demonstrates how to use
 // timeline markers in your game code. 
@@ -27,7 +27,7 @@ using System.Runtime.InteropServices;
 using FMOD.Studio;
 using UnityEngine;
 
-class TimelineController : MonoBehaviour
+public class TimelineController : MonoBehaviour
 {
 
     private MasterBusController _masterBusController;

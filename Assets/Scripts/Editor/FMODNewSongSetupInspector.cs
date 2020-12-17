@@ -1,4 +1,4 @@
-﻿using UnityEditor;
+﻿﻿using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(FMODNewSongSetup))]
@@ -31,6 +31,7 @@ public class FMODNewSongSetupInspector : Editor
         if (GUILayout.Button($"Create Scenes for {fmodNewSongSetup.songName}"))
         {
             // Setup the new scenes with the available information
+            // Populate()
         }
         GUILayout.Space(20f);
         GUILayout.EndHorizontal();
