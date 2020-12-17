@@ -42,20 +42,20 @@ public class FMODNewSongSetupInspector : Editor
         GUILayout.Space(20f);
         GUILayout.EndHorizontal();
         
-        GUILayout.Space(10);
-        GUILayout.Label("Build Settings", EditorStyles.boldLabel);
-        GUILayout.Space(5);
-        GUILayout.BeginHorizontal();
-        if (GUILayout.Button("Build for Quest"))
-        {
-            // Trigger build for Quest
-        }
+        //GUILayout.Space(10);
+        //GUILayout.Label("Build Settings", EditorStyles.boldLabel);
+        //GUILayout.Space(5);
+        //GUILayout.BeginHorizontal();
+        //if (GUILayout.Button("Build for Quest"))
+        //{
+        //    // Trigger build for Quest
+        //}
 
-        if (GUILayout.Button("Build for Rift S"))
-        {
-            // Trigger build for Rift S
-        }
-        GUILayout.EndHorizontal();
+        //if (GUILayout.Button("Build for Rift S"))
+        //{
+        //    // Trigger build for Rift S
+        //}
+        //GUILayout.EndHorizontal();
     }
 
 
