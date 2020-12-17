@@ -18,7 +18,7 @@ public class TrackAutomation : MonoBehaviour
     private float currentTimeInS;
     private bool isKeyframeInvoking = false;
     [SerializeField] private float invokeRepeatTime;
-    [SerializeField] private bool isEnabled;
+    [SerializeField] public bool isEnabled;
 
     public float startTimeOfCurve = Single.MaxValue;
     public float endTimeOfCurve = -1f;
