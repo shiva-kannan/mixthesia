@@ -1139,6 +1139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298061344}
   - component: {fileID: 298061345}
+  - component: {fileID: 298061346}
   m_Layer: 0
   m_Name: TrackField
   m_TagString: Untagged
@@ -1181,6 +1182,22 @@ MonoBehaviour:
   refLeft: {fileID: 655881450}
   refRight: {fileID: 1828620825}
   offsetToOrigin: {x: 0, y: 0, z: 0}
+--- !u!114 &298061346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298061343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d57107334c71a46b3716685f0149fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube_origin: {fileID: 0}
+  cube_xend: {fileID: 0}
+  cube_yend: {fileID: 0}
+  cube_zend: {fileID: 0}
 --- !u!1 &387908617
 GameObject:
   m_ObjectHideFlags: 0

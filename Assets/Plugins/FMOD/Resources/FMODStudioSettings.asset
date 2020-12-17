@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
+  HasSourceProject: 0
+  HasPlatforms: 0
   sourceProjectPath: ../../../../../Perforce/jianghah_Desktop/etc/projects/2020_semester_3/mixthesia/Working/FMODProject/VIVALaVidaFMODProject/VIVALaVidaFMODProject.fspro
-  sourceBankPath: ..\..\..\..\..\Perforce\jianghah_Desktop\etc\projects\2020_semester_3\mixthesia\Working\FMODProject\VIVALaVidaFMODProject\Build
+  sourceBankPath: Assets/StreamingAssets
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0

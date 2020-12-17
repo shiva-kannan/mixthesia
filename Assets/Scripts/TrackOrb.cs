@@ -11,7 +11,7 @@ public class TrackOrb : Clickable
     [SerializeField] private float yOffset = 0.05f;
     [SerializeField] public TrackField tField;
     [SerializeField] public AudioCube aCube;
-    [SerializeField] private Transform interactionPlane_posReference;
+    [SerializeField] public Transform interactionPlane_posReference;
     [SerializeField] private Vector2 interactionPlane_offsetRange;
     [SerializeField] private GameObject aCube_interactionPlane;
     [SerializeField] private GameObject eqThresholdPrefab;

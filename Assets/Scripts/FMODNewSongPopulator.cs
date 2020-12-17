@@ -8,19 +8,6 @@ public class FMODNewSongPopulator : MonoBehaviour
 {
     [SerializeField] GameObject trackOrbPrefab;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Populate(List<string> songTackReferences, string reverbTrackReference, int songBPM, int songBeatPerMeausure, int totalNumberofMeasures)
     {
         //List of properties to change:
@@ -87,8 +74,13 @@ public class FMODNewSongPopulator : MonoBehaviour
                 //Deal with TrackOrb.cs related stuff:
                 TrackOrb trackOrbRef = newTrackObj.GetComponent<TrackOrb>();
 
-                trackOrbRef.tField = null;
-                trackOrbRef.aCube = null;
+                trackOrbRef.tField = allTracksObj.transform.parent.GetComponent<TrackField>();
+                trackOrbRef.aCube = allTracksObj.transform.parent.GetComponent<AudioCube>();
+
+                if (i == 3)
+                {
+                    trackOrbRef.interactionPlane_posReference = null;
+                }
             }
 
             EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
