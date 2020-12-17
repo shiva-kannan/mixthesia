@@ -21,7 +21,7 @@ public class FMODNewSongPopulator : MonoBehaviour
         
     }
 
-    public void Populate(List<string> songTackReferences, int songBPM, int songBeatPerMeausure, int totalNumberofMeasures)
+    public void Populate(List<string> songTackReferences, string reverbTrackReference, int songBPM, int songBeatPerMeausure, int totalNumberofMeasures)
     {
         //List of properties to change:
 
