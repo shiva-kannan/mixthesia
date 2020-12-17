@@ -13,6 +13,7 @@ TagManager:
   - ReverbDisplay
   - HandL
   - HandR
+  - AllTracks
   layers:
   - Default
   - TransparentFX
